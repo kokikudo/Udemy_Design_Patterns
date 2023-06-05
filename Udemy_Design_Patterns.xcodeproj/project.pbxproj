@@ -49,6 +49,8 @@
 		FDD5CCC02A2D490400C65E4B /* Udemy_Design_PatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Udemy_Design_PatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD5CCC42A2D490400C65E4B /* Udemy_Design_PatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Design_PatternsUITests.swift; sourceTree = "<group>"; };
 		FDD5CCC62A2D490400C65E4B /* Udemy_Design_PatternsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Design_PatternsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDD5CCD32A2D494200C65E4B /* OpenAndClose.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OpenAndClose.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		FDD5CCD62A2D4C0D00C65E4B /* Single_Responsibility_Principle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Single_Responsibility_Principle.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,8 @@
 		FDD5CCA22A2D490300C65E4B /* Udemy_Design_Patterns */ = {
 			isa = PBXGroup;
 			children = (
-				FDD5CCA32A2D490300C65E4B /* AppDelegate.swift */,
-				FDD5CCA52A2D490300C65E4B /* SceneDelegate.swift */,
-				FDD5CCA72A2D490300C65E4B /* ViewController.swift */,
-				FDD5CCA92A2D490300C65E4B /* Main.storyboard */,
-				FDD5CCAC2A2D490300C65E4B /* Assets.xcassets */,
-				FDD5CCAE2A2D490300C65E4B /* LaunchScreen.storyboard */,
+				FDD5CCD52A2D4BD600C65E4B /* Section1 */,
+				FDD5CCD42A2D495000C65E4B /* OtherFiles */,
 				FDD5CCB12A2D490300C65E4B /* Info.plist */,
 			);
 			path = Udemy_Design_Patterns;
@@ -125,6 +123,28 @@
 				FDD5CCC62A2D490400C65E4B /* Udemy_Design_PatternsUITestsLaunchTests.swift */,
 			);
 			path = Udemy_Design_PatternsUITests;
+			sourceTree = "<group>";
+		};
+		FDD5CCD42A2D495000C65E4B /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5CCA32A2D490300C65E4B /* AppDelegate.swift */,
+				FDD5CCA52A2D490300C65E4B /* SceneDelegate.swift */,
+				FDD5CCA72A2D490300C65E4B /* ViewController.swift */,
+				FDD5CCA92A2D490300C65E4B /* Main.storyboard */,
+				FDD5CCAC2A2D490300C65E4B /* Assets.xcassets */,
+				FDD5CCAE2A2D490300C65E4B /* LaunchScreen.storyboard */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		FDD5CCD52A2D4BD600C65E4B /* Section1 */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5CCD32A2D494200C65E4B /* OpenAndClose.playground */,
+				FDD5CCD62A2D4C0D00C65E4B /* Single_Responsibility_Principle.playground */,
+			);
+			path = Section1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
